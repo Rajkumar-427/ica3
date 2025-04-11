@@ -1,0 +1,12 @@
+image:
+  repository: mariadb
+  tag: "10.6.4-focal"
+  pullPolicy: IfNotPresent
+
+db:
+  name: "929858"
+  user: "3324_user"
+  password: "929858"
+
+service:
+  port: 3306

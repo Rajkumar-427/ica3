@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+  labels:
+    id: "929858"
+    app: nginx
+    env: dev
+data:
+  default.conf: |-
+{{ .Values.nginxConf | indent 4 }}

@@ -1,0 +1,13 @@
+image:
+  repository: wordpress
+  tag: latest
+  pullPolicy: IfNotPresent
+
+wordpress:
+  db_host: mariadb.db.svc.cluster.local
+  db_user: 3324_user
+  db_password: "929858"
+  db_name: "929858"
+
+service:
+  port: 80
